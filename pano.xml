@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="6.1.2" apprev="17873" hideabout="1">
+  <input levelingpitch="0" levelbias="0.400" width="400" levelingroll="0" levelbiashidpi="1.000" height="400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
+    <level predecode="1" width="400" height="400" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" tilt="0" pan="0" fov="70"/>
+    <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max fovfisheye="360" tilt="90" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
+  </view>
+  <userdata tags="" description="" latitude="" customnodeid="" longitude="" nodeid="node1" datetime="" source="" copyright="" comment="" author="" title="" info=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label wordwrap="1" enabled="1" textcolor="0x000000" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" textalpha="1" height="20" borderradius="1" borderalpha="1" border="1" background="1"/>
+    <polystyle handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+  </hotspots>
+  <media>
+    <video tiltsize="10.000" roty="0.000" nodechangekeep="0" field="90.000" stretch="1.000" ambientlevel="0.000" pan="-267.610" handcursor="1" pansize="10.000" mode="3" fov="49.300" id="Element01" rotx="0.000" tilt="12.430" width="1920" height="1080" loop="-1" rotz="0.000" level="1.000" startmutedmobile="0" clickmode="2">
+      <source url="media/360 - mar baja.mp4"/>
+    </video>
+    <image id="Element03" stretch="1.000" handcursor="0" rotx="0.000" roty="0.000" width="867" tilt="12.090" clickmode="0" height="480" pan="-122.880" rotz="0.000" fov="48.512">
+      <source url="media/Bolsa-basura-mar-baja.gif"/>
+    </image>
+    <image id="Element02" stretch="1.000" handcursor="0" rotx="0.000" roty="0.000" width="187" tilt="7.590" clickmode="0" height="258" pan="-357.780" rotz="0.000" fov="24.092">
+      <source url="media/botella-gif.gif"/>
+    </image>
+  </media>
+  <transition zoomoutpause="1" enabled="1" blendcolor="0x000000" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomout="0" type="crossdissolve" zoomspeed="2"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" lockedkeyboard="0" simulatemass="1" invertwheel="0" dblclickfullscreen="1" lockedmouse="0" contextfullscreen="1"/>
+</panorama>
